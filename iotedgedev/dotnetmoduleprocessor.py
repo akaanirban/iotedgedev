@@ -13,7 +13,7 @@ class DotNetModuleProcessor(object):
         try:
             self.utility.exe_proc(["dotnet", "--version"])
         except:
-            raise ChildProcessException("The .NET Core SDK is required to use the Azure IoT Edge Dev Tool. See the README for installation instructions.") from None
+            raise ChildProcessException("The .NET Core SDK is required to use the Azure IoT Edge Dev Tool. For installation instructions, see the README at https://aka.ms/iotedgedev.") from None
 
     def build(self):
         project_file = self.get_project_file()
