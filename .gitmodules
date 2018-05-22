@@ -1,0 +1,3 @@
+[submodule "templates/cookiecutter-azure-iot-edge-module"]
+	path = templates/cookiecutter-azure-iot-edge-module
+	url = https://github.com/Azure/cookiecutter-azure-iot-edge-module.git
